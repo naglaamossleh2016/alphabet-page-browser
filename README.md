@@ -26,3 +26,22 @@ Author: **Naglaa Mossleh**
    ```bash
    wp-content/plugins/alphabet-page-browser
    ```
+
+2. In the WordPress admin, go to Plugins → Installed Plugins and activate
+   Alphabet Page Browser.
+
+## Usage
+
+Add the shortcode inside any page or post:
+
+```bash
+[alphabet_page_browser]
+```
+
+By default it lists pages.
+To use it with another post type:
+
+```bash
+[alphabet_page_browser post_type="post"]
+
+```
